@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+<h1>MOBILE ONLINE</h1>
+<div class="container">
+    <div class="col-lg-4 col-sm-12 anger">
+        <a href="{%url 'add_brand'%}">add brand</a>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+        <a href="{%url 'list_brand'%}">list brand</a>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+        <a href="{%url 'create_product'%}">create product</a>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+        <a href="{%url 'fetchitems'%}">list mobiles</a>
+    </div>
+</div>
+</body>
+</html>
